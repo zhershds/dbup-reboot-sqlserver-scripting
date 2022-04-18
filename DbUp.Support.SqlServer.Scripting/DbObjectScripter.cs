@@ -1,19 +1,17 @@
-﻿using DbUp.Engine;
-using DbUp.Engine.Output;
-using Microsoft.SqlServer.Management.Common;
+﻿using Microsoft.SqlServer.Management.Common;
 using Microsoft.SqlServer.Management.Smo;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Configuration;
-using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using DbUp.Reboot.Engine;
+using DbUp.Reboot.Engine.Output;
+using Microsoft.Data.SqlClient;
 
 namespace DbUp.Support.SqlServer.Scripting
 {

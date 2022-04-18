@@ -4,8 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using DbUp.Engine;
-using DbUp.Engine.Transactions;
+using DbUp.Reboot.Engine;
+using DbUp.Reboot.Engine.Transactions;
 
 namespace DbUp.Support.SqlServer.Scripting
 {

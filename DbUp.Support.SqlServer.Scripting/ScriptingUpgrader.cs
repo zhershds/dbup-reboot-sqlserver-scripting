@@ -1,18 +1,11 @@
-﻿using DbUp;
-using DbUp.Builder;
-using DbUp.Engine;
-using DbUp.Engine.Output;
-using DbUp.Support.SqlServer;
-using DbUp.Support.SqlServer.Scripting;
+﻿using DbUp.Support.SqlServer.Scripting;
 using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data;
+using DbUp.Reboot.Builder;
+using DbUp.Reboot.Engine;
+using DbUp.Reboot.Engine.Output;
 
 namespace DbUp
 {
