@@ -7,12 +7,11 @@
     <Authors>zhershds</Authors>
     <Product>dbup-reboot-sqlserver-scripting </Product>
     <Description>SQL Server object definition scripting for DbUp.Reboot. This package extends DbUp.Reboot to provide SQL Server object definition scripting when running migrations from Visual Studio Package Manager Console. When a database object changes during a migration, its latest definition will be saved in the project. This allows you to have all of your database object definitions versioned in your repository and to easily compare the before/after diff of a definition changed by a migration (great for pull request / code reviews!).</Description>
-    <PackageTags>dbup; dbUp.Reboot; dbup-sqlserver-scripting;database migrations; sqlserver scripting definitions scripts console</PackageTags>
+    <PackageTags>dbup; dbUp.Reboot; dbup-sqlserver-scripting;database migrations; sqlserver scripting definitions;</PackageTags>
     <RepositoryUrl>https://github.com/zhershds/dbup-reboot-sqlserver-scripting</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/zhershds/dbup-reboot-sqlserver-scripting</PackageProjectUrl>
     <PackageReleaseNotes>Initial release</PackageReleaseNotes>
-    <PackageLicenseFile>C:\Users\zhersh.dmitry\Documents\dbup-reboot-sqlserver-scripting\LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\README.md">
